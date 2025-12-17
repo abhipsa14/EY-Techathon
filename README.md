@@ -215,16 +215,6 @@ asyncio.run(validate())
 
 ---
 
-## 📜 License
-
-MIT License - See LICENSE file for details.
-
----
-
 ## 👥 Team
 
-**EY Techathon 2025** - Provider Data Validation System
-
----
-
-**Built with ❤️ for better healthcare data quality**
+Built by Team **Server_404** for **EY Techathon 2025** - Provider Data Validation System
