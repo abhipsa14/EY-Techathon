@@ -23,7 +23,7 @@ for dir_path in [DATA_DIR, REPORTS_DIR, LOGS_DIR]:
 DATABASE_URL = os.getenv("DATABASE_URL", f"sqlite:///{DATA_DIR}/providers.db")
 
 # API Keys (set these in .env file)
-NPI_REGISTRY_BASE_URL = "https://npiregistry.cms.hhs.gov/api/"
+NPI_REGISTRY_BASE_URL = "https://npiregistry.cms.hhs.gov/api/?version=2.1"
 GOOGLE_PLACES_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY", "")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 
